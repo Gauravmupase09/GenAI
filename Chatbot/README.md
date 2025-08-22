@@ -50,8 +50,7 @@ Start chatting with the bot!
 
 ⚙️ Customization
 You can tune the bot’s responses by changing:
-
-Parameter	Description	Example
+Parameter Description Example:
 temperature -->	Creativity/randomness of the response	--> 0.7
 max_completion_tokens	--> Maximum length of response (in tokens)	--> 512
 top_p	--> Focus/diversity of vocabulary	--> 0.95

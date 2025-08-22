@@ -23,10 +23,6 @@ Chatbot/
 │── requirements.txt # Project dependencies
 │── .gitignore # Ignore sensitive and temporary files
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚡ Installation
@@ -35,56 +31,40 @@ Edit
 ```bash
 git clone https://github.com/yourusername/groq-chatbot.git
 cd groq-chatbot
-Create a virtual environment (optional but recommended):
 
-bash
-Copy
-Edit
+Create a virtual environment (optional but recommended):
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
+
 Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Add your Groq API key in .env:
 
-env
-Copy
-Edit
+Add your Groq API key in .env:
 GROQ_API_KEY=gsk_your_api_key_here
+
 💻 Run the Chatbot
-bash
-Copy
-Edit
 streamlit run app.py
 Open the link shown in the terminal (default: http://localhost:8501)
-
 Start chatting with the bot!
 
 ⚙️ Customization
 You can tune the bot’s responses by changing:
 
 Parameter	Description	Example
-temperature	Creativity/randomness of the response	0.7
-max_completion_tokens	Maximum length of response (in tokens)	512
-top_p	Focus/diversity of vocabulary	0.95
-stream	Enable live incremental responses	True
+temperature -->	Creativity/randomness of the response	--> 0.7
+max_completion_tokens	--> Maximum length of response (in tokens)	--> 512
+top_p	--> Focus/diversity of vocabulary	--> 0.95
+stream --> Enable live incremental responses	--> True
 
 🧹 .gitignore Highlights
 .env → Hides your Groq API key
-
 __pycache__/ → Ignore Python cache files
-
 venv/ → Ignore virtual environment
 
 📌 Notes
 Currently implemented in Streamlit.
-
 FastAPI or LangChain integration can be added later for more advanced functionality.
-
 Streaming mode shows the bot’s response token by token, creating a “typing effect.”
 
 📜 License

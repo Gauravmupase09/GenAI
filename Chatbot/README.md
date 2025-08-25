@@ -29,7 +29,7 @@ Chatbot/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/groq-chatbot.git
+git clone https://github.com/Gauravmupase09/GenAI/tree/main/Chatbot
 cd groq-chatbot
 
 Create a virtual environment (optional but recommended):

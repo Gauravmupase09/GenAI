@@ -5,21 +5,22 @@ The chatbot uses **Groq API** (`llama-3.1-8b-instant` model) for real-time strea
 
 ---
 
-## 📂 Project Structure  
+```
+📂 Project Structure  
 
-├── app.py # FastAPI backend (API endpoint for chatbot streaming)
-├── chatbot.py # Chatbot logic (connects to Groq API)
-├── frontend.py # Streamlit frontend interface
-├── requirements.txt # Dependencies
-├── .env # API keys and environment variables
-├── .gitignore # Ignore venv, cache, and env files
+├── app.py             # FastAPI backend (API endpoint for chatbot streaming)
+├── chatbot.py         # Chatbot logic (connects to Groq API)
+├── frontend.py        # Streamlit frontend interface
+├── requirements.txt   # Dependencies
+├── .env               # API keys and environment variables
+├── .gitignore         # Ignore venv, cache, and env files
 
 ---
 
-## ⚙️ Setup Instructions  
+⚙️ Setup Instructions  
 
 1. Clone the repository  
-```bash
+bash
 git clone https://github.com/your-username/fastapi-chatbot.git
 cd fastapi-chatbot
 
@@ -93,4 +94,5 @@ Never expose your GROQ_API_KEY in public repositories.
 
 📜 License
 This project is open-source and available under the MIT License.
+
 

@@ -1,4 +1,4 @@
-# 🤖 Integrating a Chatbot with FastAPI  
+# 🤖 Integrating a Chatbot with FastAPI (No Memory)
 
 This project demonstrates how to build and integrate a **chatbot backend with FastAPI** and a **frontend using Streamlit**.  
 The chatbot uses **Groq API** (`llama-3.1-8b-instant` model) for real-time streaming responses.  
@@ -94,5 +94,6 @@ Never expose your GROQ_API_KEY in public repositories.
 
 📜 License
 This project is open-source and available under the MIT License.
+
 
 

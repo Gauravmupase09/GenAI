@@ -18,7 +18,7 @@ The chatbot uses **Groq API** (`llama-3.1-8b-instant` model) for real-time strea
 
 ## ⚙️ Setup Instructions  
 
-### 1. Clone the repository  
+1. Clone the repository  
 ```bash
 git clone https://github.com/your-username/fastapi-chatbot.git
 cd fastapi-chatbot
@@ -93,3 +93,4 @@ Never expose your GROQ_API_KEY in public repositories.
 
 📜 License
 This project is open-source and available under the MIT License.
+

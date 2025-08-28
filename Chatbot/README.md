@@ -15,7 +15,8 @@ The bot streams responses live, creating a smooth “typing effect” for realis
 
 ---
 
-## 🛠 Project Structure
+```
+🛠 Project Structure
 
 Chatbot/
 │── .env # Stores GROQ_API_KEY
@@ -25,10 +26,10 @@ Chatbot/
 
 ---
 
-## ⚡ Installation
+⚡ Installation
 
 1. **Clone the repository:**
-```bash
+bash
 git clone https://github.com/Gauravmupase09/GenAI/tree/main/Chatbot
 cd groq-chatbot
 

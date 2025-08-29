@@ -1,0 +1,10 @@
+# Backend
+fastapi
+uvicorn
+pydantic
+python-dotenv
+groq   # Groq API SDK
+
+# Frontend
+requests
+streamlit

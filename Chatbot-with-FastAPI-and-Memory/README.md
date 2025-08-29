@@ -1,4 +1,4 @@
-# 🤖 Chatbot with FastAPI & Memory  
+# 🤖 Chatbot with FastAPI & Temp Memory  
 
 A simple yet powerful chatbot application built with **FastAPI (backend)** and **Streamlit (frontend)**.  
 It uses **session memory** to store conversation history, making interactions more natural and context-aware.  
@@ -156,3 +156,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 📜 License
 This project is licensed under the MIT License.
+

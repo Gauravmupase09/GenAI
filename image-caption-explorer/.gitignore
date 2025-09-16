@@ -1,0 +1,27 @@
+# ----------------------
+# Python cache files
+# ----------------------
+__pycache__/
+*.py[cod]
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+
+# ----------------------
+# Virtual environment
+# ----------------------
+venv/
+.venv/
+
+# ----------------------
+# IDE/editor files
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# Downloaded or processed images
+# ----------------------
+app/utils/images/
